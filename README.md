@@ -4,7 +4,7 @@
 
 This container runs a web server that serves an actual Tor browser when you navigate to it. Under the hood, the container is running xRDP over Apache Guacamole to serve up the Tor browser window. The X session is locked into the Tor browser and will respawn the Tor browser if the window is closed.
 
-![](foxception.png)
+![](resources/foxception.png)
 
 This project is a fork of my older project [foxception](https://github.com/lawndoc/foxception) that was originally inspired by [this blog post](http://ivo2u.nl/Yo) by IvoNet.
 
