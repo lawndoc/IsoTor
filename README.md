@@ -6,7 +6,7 @@ This container runs a web server that serves an actual Tor browser when you navi
 
 ![](resources/foxception.png)
 
-This project is a fork of my older project [foxception](https://github.com/lawndoc/foxception) that was originally inspired by [this blog post](http://ivo2u.nl/Yo) by IvoNet.
+This is a fork of my older project [foxception](https://github.com/lawndoc/foxception) that was originally inspired by [this blog post](http://ivo2u.nl/Yo) by Ivo Woltring.
 
 ## Running the Service
 
@@ -14,7 +14,7 @@ This image is published on Docker Hub, but you'll still need to pull the seccomp
 
 `$ wget https://raw.githubusercontent.com/lawndoc/IsoTor/main/IsoTor_seccomp.json`
 
-`$ sudo docker run -d --shm-size=2G -p 8080:8080 --security-opt seccomp=IsoTor_seccomp.json --name IsoTor lawndoc/IsoTor:latest`
+`$ sudo docker run -d --shm-size=2G -p 8080:8080 --security-opt seccomp=IsoTor_seccomp.json --name IsoTor lawndoc/isotor:latest`
 
 It is important to include all of the run flags. I recommend you read up on all of the flags being used and what they mean.
 
