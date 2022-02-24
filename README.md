@@ -1,5 +1,7 @@
 # IsoTor
 
+This project is not working yet. I'm still trying to successfully get torbrowser-launcher to work correctly during the verification step.
+
 ## Remote Tor browser
 
 This container runs a web server that serves an actual Tor browser when you navigate to it. Under the hood, the container is running xRDP over Apache Guacamole to serve up the Tor browser window. The X session is locked into the Tor browser and will respawn the Tor browser if the window is closed.
