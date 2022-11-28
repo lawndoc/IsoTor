@@ -1,5 +1,7 @@
 # IsoTor
 
+***Deprecated:*** I have abandoned this project and decided to help maintain another similar one at [DomiStyle/docker-tor-browser](https://github.com/DomiStyle/docker-tor-browser).
+
 This project is not working yet. I'm still trying to successfully get torbrowser-launcher to work correctly during the verification step.
 
 ## Remote Tor browser
